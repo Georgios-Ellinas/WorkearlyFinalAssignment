@@ -9,7 +9,7 @@ item_description = zc.index.get_level_values('item_description')
 plt.bar(item_description, zc['bottles_sold'])
 plt.title('Bottles Sold')
 plt.xlabel('item_description')
-plt.xticks(rotation=80)
+plt.xticks(rotation=70)
 plt.ylabel('Bottles Sold')
 plt.show()
 
